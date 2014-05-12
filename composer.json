@@ -1,0 +1,21 @@
+{
+    "name": "ismart/yii2-rbac",
+    "description": "Role Based Acces Control",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Tijs Proost",
+            "email": "tijs@ismart.be"
+        }
+    ],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "ismart\\rbac\\": ""
+        }
+    }
+}
